@@ -1,8 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import WixContextProvider from "@/context/wixContext";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import WixContextProvider from "../context/wixContext";
 
 const inter = Inter({ subsets: ["latin"] });
 

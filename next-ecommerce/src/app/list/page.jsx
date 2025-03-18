@@ -1,9 +1,9 @@
-import Filter from "@/components/Filter";
-import ProductList from "@/components/ProductList";
+import Filter from "../../components/Filter";
+import ProductList from "../../components/ProductList";
 import Image from "next/image";
 import { wixClientServer } from "../lib/wixClientServer";
 import { Suspense } from "react";
-import Loading from "@/components/Loading";
+import Loading from "../../components/Loading";
 
 async function page({ searchParams }) {
   const { cat } = searchParams;

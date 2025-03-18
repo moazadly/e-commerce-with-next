@@ -1,5 +1,5 @@
-import Add from "@/components/Add";
-import CustomizeProducts from "@/components/CustomizeProducts";
+import Add from "../../components/Add";
+import CustomizeProducts from "../../components/CustomizeProducts";
 
 import ProductImages from "../../components/ProductImages";
 import { wixClientServer } from "../lib/wixClientServer";

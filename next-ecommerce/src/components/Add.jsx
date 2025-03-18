@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
 
-export default function Add({ productId, variantId, stockNumber }) {
+export default function Add({ stockNumber = 0 }) {
   const [quantity, setQuantity] = useState(1);
-  const handelQuantity = (quantityChange) => {
+  const handelQuantity = (quantityChange = 0) => {
     if (
       quantity + quantityChange < 1 ||
       quantity + quantityChange > stockNumber

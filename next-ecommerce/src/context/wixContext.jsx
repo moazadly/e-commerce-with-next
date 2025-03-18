@@ -11,7 +11,7 @@ const myWixClient = createClient({
     // currentCart,
   },
   auth: OAuthStrategy({
-    clientId: process.env.NEXT_PUBLIC_WIX_ID!,
+    clientId: process.env.NEXT_PUBLIC_WIX_ID,
     tokens: {
       refreshToken,
       accessToken: { value: "", expiresAt: 0 },

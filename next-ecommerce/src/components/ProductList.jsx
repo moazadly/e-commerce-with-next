@@ -21,7 +21,7 @@ async function ProductList({ catgoryId, limit = 20, searchParams = "" }) {
   //   console.log(sortType);
   //   console.log(sortBy);
   //   if (sortType === "asc") {
-  //     productQuery.ascending("sortBy");
+  //     productQuery.ascending(sortBy);
   //   } else if (sortType === "desc") {
   //     productQuery.descending(sortBy);
   //   }

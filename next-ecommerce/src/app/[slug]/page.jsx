@@ -62,9 +62,9 @@ async function page({ params }) {
         )}
 
         <div className="h-[2px] bg-gray-100" />
-        {product.additionalInfoSections?.map((section) => {
+        {product.additionalInfoSections?.map((section, i) => {
           return (
-            <div className="text-sm">
+            <div className="text-sm" key={i}>
               <h4 className="font-medium mb-4">{section.title}</h4>
               <p>{section.description}</p>
             </div>
